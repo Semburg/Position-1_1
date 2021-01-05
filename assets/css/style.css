@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: url('https://source.unsplash.com/random') center/cover no-repeat;
+}
+
+div{
+    
+    height: 100vh;
+    color: black;
+    position: relative;
+    right: 0;
+}
+
+p{
+    color: white;
+    position: absolute;
+    top:200px;
+    right: 200px;
+}
+
+p:first-child{
+    font-size: 1.5em;
+}
+
+p:last-child{
+    top: 240px;
+}
